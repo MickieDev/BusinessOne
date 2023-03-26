@@ -17,7 +17,7 @@
 }
 
 
-/************* navbar *************/
+/************* Navbar *************/
 nav {
     height: 60px;
     background-color: #333;
@@ -220,4 +220,131 @@ footer {
     color: #333;
     text-align: center;
     border-top: 2px solid #eee;
+}
+
+
+
+/************* Responsive *************/
+@media screen and (max-width: 621px) {
+
+    /* Navbar */
+    nav {
+        height: auto;
+    }
+
+    nav .logo {
+        float: none;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav .logo h1 {
+        margin: 0;
+    }
+
+    nav ul.menu {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul.menu li {
+        float: none;
+        display: inline-block;
+    }
+
+
+    /* About Us */
+    #about {
+        height: auto;
+    }
+
+    .about-info-img {
+        float: none;
+    }
+
+    .about-info-img img {
+        width: 100%;
+    }
+
+    .about-info-right {
+        float: none;
+        margin: 0;
+        padding: 20px;
+    }
+
+
+    /* Services */
+    .services-left,
+    .services-right {
+        width: 100%;
+        float: none;
+    }
+
+    .contact-info,
+    .contact-info-map {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* Display 480px*/
+@media screen and (max-width: 480px){
+
+    /* Navbar */
+    nav {
+        height: auto;
+    }
+
+    nav .logo {
+        float: none;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav .logo h1 {
+        margin: 0;
+    }
+
+    nav ul.menu {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul.menu li {
+        float: none;
+        display: inline-block;
+    }
+
+
+    /* About Us */
+    #about {
+        height: auto;
+    }
+
+    .about-info-img {
+        float: none;
+    }
+
+    .about-info-img img {
+        width: 100%;
+    }
+
+    .about-info-right {
+        float: none;
+        margin: 0;
+        padding: 20px;
+    }
+
+
+    /* Services */
+    .services-left, .services-right {
+        width: 100%;
+        float: none;
+    }
+
+    .contact-info, .contact-info-map {
+        width: 100%;
+        float: none;
+    }
 }
